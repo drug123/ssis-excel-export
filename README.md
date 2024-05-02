@@ -1,5 +1,5 @@
 # How to copy more than 255 characters into Excel Destination from OLE DB Source in SSIS 2019?
-Short answer: there is no way do to exactly that.
+Short answer: there is no way do to exactly that (at least without a pain).
 # However
 You can use Script Task to do that.
 # Solution
