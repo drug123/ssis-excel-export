@@ -84,8 +84,8 @@ Add the following code to your Main method:
 public void Main()
 {
 	// You can use 
-	// String outFile = Dts.Variables["User::RoutesOutputFile"].Value.ToString();
-	// to pass output file name in RoutesOutputFile user variable (datatype = String)
+	// String outFile = Dts.Variables["User::yourOutputFile"].Value.ToString();
+	// to pass output file name in yourOutputFile user variable (datatype = String)
 	String outFile = "c:\temp\export.xlsx";
 
 	// This fills DataTable ds from _ds variable
